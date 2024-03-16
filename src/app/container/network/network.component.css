@@ -1,5 +1,4 @@
 
-
 .icons{
     font-size: 18px;
 }
@@ -8,11 +7,11 @@ body{
 }
 .home{
     border-bottom: 2px solid black;
-    
+
 }
 .active{
     font-size: 13px;
-   
+
 }
 .menu-tet{
     font-size: 20px;
@@ -22,7 +21,7 @@ body{
 }
 .city-9{
     margin-left: 80px;
-    
+
 }
 .city-10{
     margin-left: 140px;
@@ -36,7 +35,7 @@ body{
     height: 40px; 
     width: 40px;
     border-radius: 50%;
-   
+
 } 
 
 
@@ -45,7 +44,7 @@ body{
 
     .icons{
         font-size: 15px;
-    
+
     }
     .search-bar{
         display: none !important;
@@ -53,7 +52,7 @@ body{
     .active{
         font-size: 15px;
         padding: 0px;
-        
+
     }
         .active{
         font-size: 15px;
@@ -77,7 +76,7 @@ body{
     }
     .image{
         margin-left: 100px;
-        
+
     }
     .active{
         font-size: 15px;
@@ -97,14 +96,14 @@ body{
     }
     .home{
         border-bottom:none !important;
-        
+
     }
     .city4{
         display: none !important;
     }
  .card-ing{
     margin-left: 170px; 
-   
+
 }
 .city-1{
     display: none !important;
@@ -155,10 +154,8 @@ body{
         
     }
     .city6{
-
         width: 450px;
     }
-
 } */
  @media screen and (max-width: 700px) {
 
@@ -171,14 +168,14 @@ body{
     }
     .home{
         border-bottom:none !important;
-        
+
     }
     .city4{
         display: none !important;
     } 
  .card-ing{
     margin-left: 170px;
-   
+
 }
 .city-1{
     display: none !important;
@@ -195,7 +192,7 @@ body{
 }
 
 
-    
+
 } 
 /* @media screen and (max-width: 870px){
     .note-7{
@@ -261,4 +258,3 @@ body{
 .card1{
     font-size: 13px;
 }
- 

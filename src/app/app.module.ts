@@ -3,12 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NetworkPageComponent } from './container/network-page/network-page.component';
+import { NetworkComponent } from './container/network/network.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NetworkPageComponent
+    NetworkComponent,
+   
   ],
   imports: [
     BrowserModule,
