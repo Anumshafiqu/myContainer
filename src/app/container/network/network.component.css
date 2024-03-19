@@ -9,9 +9,8 @@ body{
     border-bottom: 2px solid black;
 
 }
-.active{
-    font-size: 13px;
-
+.note-10{
+    background-color: #F4F2EE;
 }
 .menu-tet{
     font-size: 20px;
@@ -37,9 +36,9 @@ body{
     border-radius: 50%;
 
 } 
-.menu_text{
+/* .menu_text{
     width: 20rem;
-}
+} */
 
 
 
@@ -122,12 +121,16 @@ body{
     display: none !important;
 } 
 
-.tex-menu{
+/* .tex-menu{
     width: 35rem;
 
- }   
+ }    */
 
  } 
+ /* .tex-menu{
+    width: 51rem;
+
+ }   */
  /* @media screen and (max-width: 1200px){
     .tex-menu{
         width: 25rem;
