@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NetworkComponent } from './container/network/network.component';
 import { Page1Component } from './container/network/page-1/page-1.component';
 import { RouterModule, Routes } from '@angular/router';
+import { JobsPageComponent } from './container/network/jobs-page/jobs-page.component';
 
 
 // const Routes:Routes = [
@@ -20,7 +21,8 @@ import { RouterModule, Routes } from '@angular/router';
   declarations: [
     AppComponent,
     NetworkComponent,
-    Page1Component
+    Page1Component,
+    JobsPageComponent
    
   ],
   imports: [
