@@ -1,0 +1,136 @@
+
+
+/* card-1 */
+.card-1{
+    font-size: 20px;
+}
+.card-2{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.card-4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+  background-color: #476072;
+ margin-left: 220px;
+}
+.card-button{
+    margin-left: 300px;
+}
+.card-buttons{
+    font-size: 15px;
+    padding: 0px;
+}
+.city-1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+
+
+}
+.image-2{
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+
+}
+.city-2{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.city-3{
+    background-color:  rgb(245, 178, 91);
+}
+.city-4{
+    font-size: 13px;
+}
+.icons{
+    font-size: 40px;
+  color: rgb(245, 178, 91);
+  margin-left: 230px;
+}
+.city-5{
+    height: 60px;
+    width: 60px;
+}
+.city-6{
+    font-size: 14px;
+}
+.city-7{
+    font-size: 13px;
+}
+.linkedin-text{
+font-size: 13px;
+}
+
+@media screen and (max-width: 1200px){
+    .card-4{
+
+     margin-left: 120px;
+    }
+    .card-button{
+        margin-left: 200px;
+    }
+    .city-12{
+        font-size: 13px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .card-4{
+
+        margin-left: 150px;
+       }
+       .card-button{
+        margin-left: 400px;
+    }
+    .city-13{
+        margin-left: 240px;
+    }
+
+}
+@media screen and (max-width: 900px){
+
+    .card-button{
+        margin-left: 300px;
+    }
+    .city-13{
+        margin-left: 240px;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .card-4{
+
+        margin-left: 200px;
+       }
+       .city-13{
+        margin-left: 240px;
+    }
+}
+@media screen and (max-width: 700px){
+    .city-13{
+        margin-left: 0px;
+    }
+    .card-4{
+
+        margin-left: 200px;
+       }
+       .city-15{
+        display: none !important;
+       }
+       .city-20{
+        margin-top: 0px; 
+        padding: 0px;
+       }
+
+}
