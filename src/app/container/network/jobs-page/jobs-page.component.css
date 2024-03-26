@@ -114,8 +114,13 @@ font-size: 13px;
         margin-left: 200px;
        }
        .city-13{
-        margin-left: 240px;
+        margin-left: 0px;
     }
+}
+@media screen and (max-width: 758px){
+    .city-13{
+        margin-left: 0px;
+    } 
 }
 @media screen and (max-width: 700px){
     .city-13{
