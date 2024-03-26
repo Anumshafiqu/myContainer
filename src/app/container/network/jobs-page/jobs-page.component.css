@@ -2,12 +2,15 @@
 
 /* card-1 */
 .card-1{
-    font-size: 20px;
+    font-size: 21px;
 }
 .card-2{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     
+}
+.city-14{
+font-size: 15px;
 }
 .card-4{
     height: 100px;
@@ -49,9 +52,11 @@
 }
 .city-3{
     background-color:  rgb(245, 178, 91);
+    font-size: 15px;
 }
 .city-4{
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 0;
 }
 .icons{
     font-size: 40px;
@@ -60,7 +65,7 @@
 }
 .city-5{
     height: 60px;
-    width: 60px;
+    width: 90px;
 }
 .city-6{
     font-size: 14px;
@@ -91,7 +96,7 @@ font-size: 13px;
         margin-left: 150px;
        }
        .card-button{
-        margin-left: 400px;
+        margin-left: 300px;
     }
     .city-13{
         margin-left: 240px;
@@ -101,7 +106,7 @@ font-size: 13px;
 @media screen and (max-width: 900px){
 
     .card-button{
-        margin-left: 300px;
+        margin-left: 250px;
     }
     .city-13{
         margin-left: 240px;
@@ -114,7 +119,16 @@ font-size: 13px;
         margin-left: 200px;
        }
        .city-13{
-        margin-left: 0px;
+        margin-left: 240px;
+    }
+    .card-button{
+        margin-left: 200px;
+    }
+
+}
+@media screen and (max-width: 785px){
+    .card-button{
+        margin-left: 250px;
     }
 }
 @media screen and (max-width: 758px){

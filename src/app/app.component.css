@@ -6,6 +6,12 @@
     font-size: 20px;
 
 }
+.city-3{
+    font-size: 13px;
+}
+.city-16{
+    margin-left: 50rem;
+}
 
 .icons{
     font-size: 18px;
@@ -45,6 +51,7 @@ body{
 @media screen and (max-width: 980px){
     .icons{
         font-size: 15px;
+        margin-left: 0px;
 
     }
 
@@ -55,11 +62,15 @@ body{
 
     .icons{
         font-size: 15px;
+        margin-left: 0px;
 
     }
-    .search-bar{
-        display: none !important;
+    .city-16{
+        margin-left: 10rem;
     }
+    /* .search-bar{
+        display: none !important;
+    } */
     .active{
         font-size: 20px;
         padding: 0px;
@@ -73,6 +84,7 @@ body{
         font-size: 15px;
         padding: 0px;
     }
+ 
 
 
 } 
@@ -114,12 +126,19 @@ body{
     margin-left: 170px; 
 
 }
+  .city3{
+    margin-left: 0px;
+}
+
 .city-1{
     display: none !important;
 }
 .search-bar{
    margin-left: 10px !important;
    display: none !important;
+}
+.city-16{
+    margin-left: 0px;
 }
 .city-2{
     width: 20rem;
@@ -132,7 +151,9 @@ body{
 
  }  
   @media screen and (max-width: 750px) {
-
+    .city3{
+        margin-left: 0px;
+    }
     .icons{
         font-size: 17px;
         margin-left: 50px;
@@ -184,7 +205,9 @@ body{
 
  } 
  @media screen and (max-width: 780px) {
-
+    .city3{
+        margin-left: 0px;
+    }
     .city2{
         display: none !important;
     }
@@ -217,6 +240,9 @@ body{
 .city-3{
     display: none !important;
 }
+.active{
+    font-size: 12px;
+}
 
 
 
@@ -225,7 +251,9 @@ body{
 
  
  @media screen and (max-width: 700px) {
-
+    .city3{
+        margin-left: 0px;
+    }
     .city2{
         display: none !important;
     }
