@@ -7,6 +7,7 @@ import { NetworkComponent } from './container/network/network.component';
 import { Page1Component } from './container/network/page-1/page-1.component';
 import { RouterModule, Routes } from '@angular/router';
 import { JobsPageComponent } from './container/network/jobs-page/jobs-page.component';
+import { MessagePageComponent } from './container/network/page-1/message-page/message-page.component';
 
 
 // const Routes:Routes = [
@@ -22,7 +23,8 @@ import { JobsPageComponent } from './container/network/jobs-page/jobs-page.compo
     AppComponent,
     NetworkComponent,
     Page1Component,
-    JobsPageComponent
+    JobsPageComponent,
+    MessagePageComponent
    
   ],
   imports: [

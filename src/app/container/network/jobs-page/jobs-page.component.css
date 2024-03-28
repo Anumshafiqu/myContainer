@@ -1,5 +1,7 @@
 
-
+.city-19{
+    background-color: #F4F2EE;
+}
 /* card-1 */
 .card-1{
     font-size: 21px;
@@ -9,6 +11,7 @@
     font-weight: 500;
     
 }
+
 .city-14{
 font-size: 15px;
 }
@@ -26,7 +29,7 @@ font-size: 15px;
     margin-left: 300px;
 }
 .card-buttons{
-    font-size: 15px;
+    font-size: 14px;
     padding: 0px;
 }
 .city-1{
@@ -39,11 +42,20 @@ font-size: 15px;
 
 
 }
+.city-17{
+    font-size: 16px;
+}
+.city-18{
+    font-size: 17px;
+}
 .image-2{
   height: 33px;
   width: 33px;
   border-radius: 50%;
 
+}
+.city-19{
+    font-size: 16px;
 }
 .city-2{
     font-size: 12px;
@@ -55,7 +67,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .city-4{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 0;
 }
 .icons{
@@ -101,6 +113,9 @@ font-size: 13px;
     .city-13{
         margin-left: 240px;
     }
+    .city-5{
+        margin-left: 200px;
+               }
 
 }
 @media screen and (max-width: 900px){
@@ -111,6 +126,9 @@ font-size: 13px;
     .city-13{
         margin-left: 240px;
     }
+    .city-5{
+        margin-left: 200px;
+               }
 
 }
 @media screen and (max-width: 800px){
@@ -124,17 +142,26 @@ font-size: 13px;
     .card-button{
         margin-left: 200px;
     }
+    .city-5{
+        margin-left: 200px;
+               }
 
 }
 @media screen and (max-width: 785px){
     .card-button{
         margin-left: 250px;
     }
+    .city-5{
+        margin-left: 200px;
+               }
 }
 @media screen and (max-width: 758px){
     .city-13{
         margin-left: 0px;
     } 
+    .city-5{
+        margin-left: 200px;
+               }
 }
 @media screen and (max-width: 700px){
     .city-13{
@@ -147,9 +174,16 @@ font-size: 13px;
        .city-15{
         display: none !important;
        }
+       .city-16{
+        display: none !important;
+       }
        .city-20{
         margin-top: 0px; 
         padding: 0px;
        }
+       .city-5{
+margin-left: 200px;
+       }
+
 
 }
