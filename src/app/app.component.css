@@ -322,4 +322,42 @@ body{
 .card1{
     font-size: 13px;
 } 
- 
+
+.button-drop{
+    font-size: 13px;
+}
+.user-icon{
+    font-size: 50px;
+}
+.btn-profile{
+    font-size: 14px;
+    width: 250px;
+}
+
+.links-2:hover{
+border-bottom: 1px solid gray;
+}
+.button-4{
+    font-size: 14px;
+}
+.business-class{
+    width: 37rem;
+    /* height: 88vh; */
+}
+.icon-1{
+    font-size: 14px;
+    font-weight: 500;
+}
+.icon-2{
+    font-size: 14px;
+    font-weight: 500;
+}
+.icon-3{
+    font-size: 11px;
+}
+/* ------custom scrollbar-------- */
+
+.business-class{
+    height: 550px;
+    overflow-y: scroll;
+}

@@ -9,8 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { JobsPageComponent } from './container/network/jobs-page/jobs-page.component';
 import { MessagePageComponent } from './container/network/page-1/message-page/message-page.component';
 import { NotificationPageComponent } from './container/network/page-1/notification-page/notification-page.component';
-
-
+import { MePageComponent } from './container/network/page-1/me-page/me-page.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // const Routes:Routes = [
 
 //   {path: 'page-1' , component : Page1Component},
@@ -21,20 +21,25 @@ import { NotificationPageComponent } from './container/network/page-1/notificati
 
 @NgModule({
   declarations: [
-    AppComponent,
+     AppComponent,
     NetworkComponent,
     Page1Component,
     JobsPageComponent,
     MessagePageComponent,
-    NotificationPageComponent
+    NotificationPageComponent,
+    MePageComponent,
+  
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
+
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

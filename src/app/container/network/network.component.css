@@ -13,17 +13,20 @@ body{
     background-color: #F4F2EE;
 }
 .menu-tet{
-    font-size: 19px;
+    font-size: 18px;
 }
 .active-link{
-    font-size: 16px;
+    font-size: 15px;
 }
 .city-9{
     margin-left: 80px;
 
 }
+.button-follow{
+    padding: 2px;
+}
 .city-10{
-    margin-left: 140px;
+    margin-left: 130px;
 }
 .image{
     height: 250px;
@@ -61,6 +64,9 @@ body{
     .menu-tet{
         font-size: 15px;
         padding: 0px;
+    }
+    .card-size-1{
+        margin-top: 5px;
     }
 
 
@@ -118,6 +124,9 @@ body{
 .city-3{
     display: none !important;
 } 
+.card-size-1{
+    margin-top: 5px;
+}
 
 /* .tex-menu{
     width: 35rem;
@@ -163,6 +172,9 @@ body{
 }
 .city-3{
     display: none !important;
+}
+.card-size-1{
+    margin-top: 5px;
 }
 
 

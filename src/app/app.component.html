@@ -1,9 +1,14 @@
 
-<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100&display=swap" rel="stylesheet"> 
+<!-- <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-<link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css "rel="stylesheet">
+<link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css "rel="stylesheet"> -->
 
-<nav class="navbar  navbar-expand-sm navbar-light bg-white shadow-sm p-0 justify-content-between">
+
+
+  <router-outlet></router-outlet>
+
+
+ <nav class="navbar  navbar-expand-sm navbar-light bg-white shadow-sm p-0 justify-content-between fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="../../../assets/linked.png" alt="" width="40" height="35">
@@ -13,7 +18,7 @@
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2  mb-lg-0  city-16">
           <li class="nav-item home p-0">
         <i class="fa fa-home  mt-2 city3  icons mx-4 p-0" aria-hidden="true"></i>
@@ -41,25 +46,155 @@
                           Notifications</a>  
                           </li>
                           <li class="nav-item p-0 border-end city-3">
-                            <i class="fa fa-user-circle text-secondary icons mt-2 city3 p-0 mx-2" aria-hidden="true"></i>
-                            <a class="nav-link  text-secondary  p-0 city2 mx-2" aria-current="page" href="#"> 
-                              Me</a>  
-                              </li>
+                                        <i class="fa fa-user-circle text-secondary icons mt-2 city3 p-0 mx-2" aria-hidden="true"></i>
+                                        
+                                        <!-- <a class="nav-link  text-secondary  p-0 city2 mx-2" routerLink="me-page" > Me</a>             -->
+                                       
+                            
+                                          
+                                        <div class="nav-item" ngbDropdown>
 
-          <li class="nav-item city-3 p-0 ">
-            <a class="nav-link text-secondary small" ><i class="fa fa-braille icons text-secondary mx-4 " aria-hidden="true"></i>
-                <br>for Bussiness</a>
+                                          <button class="btn btn-small button-4 p-0 text-secondary mx-2" tabindex="0" ngbDropdownToggle id="navbarDropdown2" role="button"> Me </button>
+                                          <div ngbDropdownMenu aria-labelledby="navbarDropdown2" class="dropdown-menu dropdown-menu-end">
+                                           
+                                                <!-- items as buttons -->
+                                                <div class="d-flex flex-row p-0">
+                                                  <i class="fa fa-user-circle user-icon text-secondary mx-2" aria-hidden="true"></i>
+                                                  <p class="mx-2">anum shafique 
+                                                   <br>
+                                                   --
+                                                  </p>
+                                                 </div>
+                                                <button class="btn btn-outline-primary p-0 rounded-pill btn-profile fw-medium mx-2">View Profile</button>
+                                                <hr>
+                                                <p class="fs-6 fw-medium mx-3 mb-1">Account</p>
+                                                <p class="small fw-medium mx-2 text-secondary mb-1"> <i class="fa fa-square text-warning mx-1 small " aria-hidden="true"></i>Try premium for Free</p>
+                                            
+                                                <!-- items as links -->
+                                                <a href="#"  class="text-secondary small links-2 mx-3 text-decoration-none">Setting & Privacy</a><br>
+                                                <a href="#" class="text-secondary small links-2 mx-3 text-decoration-none">Help</a><br>
+                                                <a href="#" class="text-secondary small links-2 mx-3 mb-0 text-decoration-none">Language</a>
+                                                <hr>
+                                                <p class="fs-6 fw-medium mx-3 mb-0 mt-0 mx-3 text-decoration-none">Account</p>
+                                                <a href="#" class="text-secondary small links-2 mx-3 text-decoration-none">Post and activity</a><br>
+                                                <a href="#" class="text-secondary  small links-2 mx-3 text-decoration-none">Job posting account</a><br>
+                                                <hr>
+                                                <a href="#" class="text-secondary small links-2 mx-3 mb-0 mt-0 text-decoration-none">sign out</a>
+                                                
+                                        
+                                              </div>
+                                        </div>
+
+                
+                                            </li>
+                          
+
+           <li class="nav-item city-3 p-0 mx-2">
+            <!-- <a class="nav-link text-secondary small" > <br>for Bussiness</a> -->
+              <i class="fa fa-braille icons text-secondary mx-4 mt-2" aria-hidden="true"></i>
+               
+                <div class="nav-item" ngbDropdown id="myid">
+
+                  <button class="btn btn-small text-secondary p-0 button-4" tabindex="0" ngbDropdownToggle id="navbarDropdown2" role="button"> For Bussiness </button>
+                  <div ngbDropdownMenu aria-labelledby="navbarDropdown2" class="dropdown-menu dropdown-menu-end">
+                   
+                        <!-- items as buttons -->
+                       <div class="row business-class mx-3">
+                        <ul class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                          <p class="fw-medium fs-6 mt-5 mx-4">My Apps</p>
+                          <li class="d-flex flex-row m-4">
+                            <i class="fa fa-window-maximize text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Learning</a>
+                          </li>
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-users text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Telant Insight</a>
+                          </li>
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-suitcase text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Post a job</a>
+                          </li>
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-mars-double text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Advertise</a>
+                          </li>
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-sun text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Sell</a>
+                          </li>
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-users text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Groups</a>
+                          </li>    
+                          <li class="d-flex flex-row m-4 mt-4">
+                            <i class="fa fa-user text-primary mt-1 fs-5" aria-hidden="true"></i>
+                            <a href="#" class="text-decoration-none mx-2 text-dark icon-1">Services Marketplace</a>
+                          </li>
+                        </ul>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 border-start">
+                          <p class="fw-medium fs-6 mt-5 mx-4 ">Explore From Your Bussiness</p>
+                          <!-- links -->
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Hire on LinkedIn</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Find, attract and recuret talent</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Sell with LinkedIn</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Unlock sales opportunities</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Post a job for free</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Get job in front of quality candidates</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Advertise on linkedIn</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Acquire customers and gow your business</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Get started and Premium</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Expand and leverage your network</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Learn with LinkedIn</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Courses to devlop your customers</a>
+                          </li>
+                          <li class="p-0 mt-4">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">admin center</a><br>
+                            <a href="#" class="text-decoration-none mx-4  text-secondary icon-3">Mnage your billing and account details</a>
+                          </li>
+                          <li class="p-0 mt-5">
+
+                            <a href="#" class="text-decoration-none mx-4  text-dark icon-2">Create a company page <i class="fa fa-plus mx-2" aria-hidden="true"></i> </a>
+                          </li>
+
+                        </div>
+                       </div>
+                  </div>
+              </div>
           </li> 
           <li class="nav-item city-3">
             <a class="nav-link text-dark-emphasis border-dark-subtle">
                 <br>Try Premium</a>
             </li>
+
         </ul>
-      </div>
-    </div>
-  </nav>
+        
+            </div>
+					</div>
+				
+   
+  </nav> 
 
   <router-outlet></router-outlet>
+
+
 <!---- navigation bar  tabs move to the next links----->
 <!-- ruter link analize karta a hmara currently loaded path ko or is link ko active kar dta ha
  -->
