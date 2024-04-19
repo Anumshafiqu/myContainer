@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbScrollSpy } from '@ng-bootstrap/ng-bootstrap';
 @Component({
@@ -6,7 +6,8 @@ import { NgbScrollSpy } from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {
+export class AppComponent{
   title = 'myContainer';
+  showNavBar: boolean = true;
 
 }

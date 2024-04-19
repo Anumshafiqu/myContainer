@@ -6,6 +6,7 @@ import { JobsPageComponent } from './container/network/jobs-page/jobs-page.compo
 import { MessagePageComponent } from './container/network/page-1/message-page/message-page.component';
 import { NotificationPageComponent } from './container/network/page-1/notification-page/notification-page.component';
 import { MePageComponent } from './container/network/page-1/me-page/me-page.component';
+import { PremuimPageComponent } from './premuim-page/premuim-page.component';
 
 const routes: Routes = [
   {path : 'page-1' , component : Page1Component},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:'jobs-page' , component:JobsPageComponent},
   {path:'message-page' , component:MessagePageComponent},
   {path:'notification-page' , component:NotificationPageComponent},
-  {path:'me-page' , component:MePageComponent}
+  {path:'me-page' , component:MePageComponent},
+  {path:'premuim-page' , component:PremuimPageComponent}
 ];
 
 @NgModule({

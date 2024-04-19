@@ -11,6 +11,7 @@ import { MessagePageComponent } from './container/network/page-1/message-page/me
 import { NotificationPageComponent } from './container/network/page-1/notification-page/notification-page.component';
 import { MePageComponent } from './container/network/page-1/me-page/me-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PremuimPageComponent } from './premuim-page/premuim-page.component';
 // const Routes:Routes = [
 
 //   {path: 'page-1' , component : Page1Component},
@@ -28,6 +29,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MessagePageComponent,
     NotificationPageComponent,
     MePageComponent,
+    PremuimPageComponent,
   
    
   ],

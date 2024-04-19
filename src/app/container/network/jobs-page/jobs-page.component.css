@@ -12,6 +12,8 @@
     
 }
 
+
+
 .city-14{
 font-size: 15px;
 }
@@ -23,7 +25,7 @@ font-size: 15px;
     text-align: center;
     line-height: 80px;
   background-color: #476072;
- margin-left: 220px;
+ margin-left: 170px;
 }
 .card-button{
     margin-left: 300px;
@@ -101,6 +103,11 @@ font-size: 13px;
         font-size: 13px;
         width: 300px;
     }
+    .icons{
+        font-size: 40px;
+      color: rgb(245, 178, 91);
+      margin-left: 180px;
+    }
 }
 @media screen and (max-width: 1000px){
     .card-4{
@@ -119,7 +126,10 @@ font-size: 13px;
 
 }
 @media screen and (max-width: 900px){
+    .card-4{
 
+        margin-left: 170px;
+       }
     .card-button{
         margin-left: 250px;
     }
@@ -134,7 +144,7 @@ font-size: 13px;
 @media screen and (max-width: 800px){
     .card-4{
 
-        margin-left: 200px;
+        margin-left: 170px;
        }
        .city-13{
         margin-left: 240px;
@@ -147,6 +157,7 @@ font-size: 13px;
                }
 
 }
+
 @media screen and (max-width: 785px){
     .card-button{
         margin-left: 250px;
