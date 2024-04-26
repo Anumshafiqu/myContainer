@@ -1,0 +1,146 @@
+
+
+.img-1{
+    height: 45px;
+    width: 45px;
+}
+.card-1{
+font-size: 14px;
+}
+.card2{
+    font-size: 12px;
+    
+}
+.image{
+    height: 250px;
+    width: 230px;
+}
+.linkedin-text{
+    font-size: 12px;
+}
+
+/* @media screen and (max-width: 800px){
+    .linkedin-image{
+        width: 28rem;
+    }
+    .image{
+        margin-left: 100px;
+    }
+
+} */
+/* @media screen and (max-width: 1000px){
+    .linkedin-image{
+        width: 28rem;
+        
+    }
+    .image{
+        margin-left: 90px;
+    }
+} */
+/* @media screen and (max-width: 963px){
+    .linkedin-image{
+        width: 28rem;
+     
+    
+    }
+    .image{
+        margin-left: 90px;
+    }
+} */
+/* @media screen and (max-width: 900px){
+    .linkedin-image{
+        width: 28rem;
+    }
+    .image{
+        margin-left: 90px;
+    }
+}   */
+@media screen and (max-width: 1000px){
+    .linkedin-image{
+        width: 28rem;
+        margin-left: 240px;
+    }
+    .image{
+        height: 250px;
+        width: 260px;
+    }
+    .image{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    .linkedin-image{
+        width: 28rem;
+        
+      
+    }
+    .image{
+        margin-left: 100px;
+    }
+    .image{
+        height: 250px;
+        width: 260px;
+    }
+}
+@media screen and (max-width: 875px){
+    .linkedin-image{
+        width: 28rem;
+        
+        
+    }
+    .image{
+        margin-left: 90px;
+    }
+    .image{
+        height: 250px;
+        width: 260px;
+    }
+}
+ @media screen and (max-width: 700px){
+    .linkedin-image{
+        width: 28rem;
+        margin-left: 0px;
+    }
+    .image{
+        margin-left: 120px;
+    }
+    .image{
+        height: 250px;
+        width: 260px;
+    }
+} 
+@media screen and (max-width: 691px){
+    .linkedin-image{
+        width: 28rem;
+        margin-left: 0px;
+    }
+    .image{
+        margin-left: 120px;
+    }
+    .image{
+        height: 250px;
+        width: 260px;
+    }
+}
+@media screen and (max-width: 763px){
+    .linkedin-image{
+        width: 32rem;
+        margin-left: 0px;
+    }
+    .image{
+        margin-left: 120px;
+    }
+} 
+.city-22{
+    background-color:#f2f4ee ;
+}
+.images{
+    height: 250px; 
+    width: 250px;
+    margin-left: 100px;
+}
+.buttons-1{
+margin-left: 170px;
+padding: 5px;
+
+}

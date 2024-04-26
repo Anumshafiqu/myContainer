@@ -12,6 +12,10 @@ import { NotificationPageComponent } from './container/network/page-1/notificati
 import { MePageComponent } from './container/network/page-1/me-page/me-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PremuimPageComponent } from './premuim-page/premuim-page.component';
+import { MyitemComponent } from './myitem/myitem.component';
+import { MypostsPageComponent } from './myposts-page/myposts-page.component';
+import { MentionsPageComponent } from './mentions-page/mentions-page.component';
+import { NewjobsPageComponent } from './newjobs-page/newjobs-page.component';
 // const Routes:Routes = [
 
 //   {path: 'page-1' , component : Page1Component},
@@ -30,6 +34,10 @@ import { PremuimPageComponent } from './premuim-page/premuim-page.component';
     NotificationPageComponent,
     MePageComponent,
     PremuimPageComponent,
+    MyitemComponent,
+    MypostsPageComponent,
+    MentionsPageComponent,
+    NewjobsPageComponent,
   
    
   ],

@@ -7,6 +7,9 @@ import { MessagePageComponent } from './container/network/page-1/message-page/me
 import { NotificationPageComponent } from './container/network/page-1/notification-page/notification-page.component';
 import { MePageComponent } from './container/network/page-1/me-page/me-page.component';
 import { PremuimPageComponent } from './premuim-page/premuim-page.component';
+import { MyitemComponent } from './myitem/myitem.component';
+import { MypostsPageComponent } from './myposts-page/myposts-page.component';
+import { MentionsPageComponent } from './mentions-page/mentions-page.component';
 
 const routes: Routes = [
   {path : 'page-1' , component : Page1Component},
@@ -16,7 +19,10 @@ const routes: Routes = [
   {path:'message-page' , component:MessagePageComponent},
   {path:'notification-page' , component:NotificationPageComponent},
   {path:'me-page' , component:MePageComponent},
-  {path:'premuim-page' , component:PremuimPageComponent}
+  {path:'premuim-page' , component:PremuimPageComponent},
+  {path:'myitem' , component:MyitemComponent},
+  {path:'myposts-page' , component:MypostsPageComponent},
+  {path:'mentions-page' , component:MentionsPageComponent}
 ];
 
 @NgModule({
