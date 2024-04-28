@@ -7,7 +7,11 @@ import { NgbScrollSpy } from '@ng-bootstrap/ng-bootstrap';
   styleUrl: './app.component.css',
 })
 export class AppComponent{
-  title = 'myContainer';
-  showNavBar: boolean = true;
+ title = 'myContainer';
+   showNavBar: boolean = true;
+  activeLink: string = 'home'; // Initially set active link to 'home'
 
+  setActiveLink(link: string) {
+    this.activeLink = link;
+  }
 }

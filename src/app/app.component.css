@@ -19,9 +19,8 @@
 body{
     background-color: grey;
 }
-.home{
+.home-border:hover{
     border-bottom: 2px solid black;
-
 }
 .city2{
     font-size: 13px;
@@ -368,12 +367,12 @@ border-bottom: 1px solid gray;
 }
 /* ------custom scrollbar-------- */
 
-.business-class{
-    height: 550px;
-    overflow-y: scroll;
-}
 .city-23{
     color: peru;
     font-size: 12px;
    
+}
+.business-class{
+    height: 550px;
+    overflow-y: scroll;
 }
